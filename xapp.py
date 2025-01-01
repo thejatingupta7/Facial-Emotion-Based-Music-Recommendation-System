@@ -5,8 +5,8 @@ import cv2
 from deepface import DeepFace
 
 # Spotify API credentials
-SPOTIFY_CLIENT_ID = "4ad19ae52aa84058a710450db8fd17ba"  # Replace with your Spotify client ID
-SPOTIFY_CLIENT_SECRET = "436b338e57584ff99972304ba332c2d4"  # Replace with your Spotify client secret
+SPOTIFY_CLIENT_ID = ""  # Replace with your Spotify client ID
+SPOTIFY_CLIENT_SECRET = ""  # Replace with your Spotify client secret
 
 # Initialize Spotipy
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secret=SPOTIFY_CLIENT_SECRET))
